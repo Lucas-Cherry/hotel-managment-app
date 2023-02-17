@@ -117,7 +117,5 @@ public class RoomService {
             printError(exception);
         }
     }
-    public void roomProblem() {
 
-    }
 }

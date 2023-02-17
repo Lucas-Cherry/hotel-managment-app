@@ -21,9 +21,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-
-
-
+            
             CommandService commandService = new CommandService(); // add commands to use
 
             commandService.registerCommand(new CommandHelp(commandService.getCommandList()));
